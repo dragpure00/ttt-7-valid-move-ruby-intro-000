@@ -16,7 +16,7 @@ def board_valid?(num)
     return false
   end
 end
-if( position_taken?(board,index)) == false && (board_valid?(num) == true )
+if( position_taken?(b,ind)) == false && (board_valid?(num) == true )
   return true
 else
 return  false
