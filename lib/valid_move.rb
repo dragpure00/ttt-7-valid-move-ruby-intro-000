@@ -20,5 +20,5 @@ if( position_taken?(board,index) == true && board_valid?(num) == true )
   return true
 else
   false
-
+end
 # re-define your #position_taken? method here, so that you can use it in the #valid_move? method above.
