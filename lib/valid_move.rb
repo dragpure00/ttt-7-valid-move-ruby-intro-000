@@ -3,12 +3,12 @@
 def valid_move?(board,index)
   def   position_taken?(board,index)
     if  board[index] == "" || board[index] == " "||board[index]==nil
-      false
+      return false
     else
-      false
+    return  true
     end
   end
-end
+
 def board_valid?(num)
   if(num.between?(0,8)==true)
     true
@@ -22,3 +22,4 @@ else
   false
 end
 # re-define your #position_taken? method here, so that you can use it in the #valid_move? method above.
+end
